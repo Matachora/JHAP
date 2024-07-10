@@ -1,0 +1,44 @@
+/*Estilos de componentes comunes a todas las pantallas*/
+
+/*
+FUENTE Quicksands
+Tamaño de fuente minimo: 12px
+escala de fuentesbase 6;
+12 - 18 - 24 - 30 - 36 - 42 - 48 - 54 - 60
+*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 12px;
+  font-family:  "Quicksand";
+}
+
+/*ENCABEZADOS*/
+h1 { font-size: 36px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+
+a { text-decoration: none;}
+a:hover {
+  color: blue;
+}
+
+/*ESTILO*/
+li { list-style: none; }
+
+/*BOTON*/
+button {
+  border: 1px solid black;
+  background: none;
+  padding: 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:hover a {
+  color: white;
+}
