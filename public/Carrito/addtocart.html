@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addtocart.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Carrito de compras</title>
+</head>
+<body>
+    <div class="header">
+        <p class="logo">Carrito</p>
+        <div class="cart"><script src="https://cdn.lordicon.com/lordicon.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/mfmkufkr.json"
+                trigger="hover"
+                colors="primary:#000000"
+                style="width:25px;height:25px">
+            </lord-icon>
+            <p id="count">0</p></div>
+    </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>Mi carrito</p></div>
+            <br>
+            <div id="cartItem">Tu carrito esta vacío</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="addtocart.js"></script>
+</body>
+</html>
